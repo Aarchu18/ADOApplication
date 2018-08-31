@@ -1,0 +1,9 @@
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\bin\Debug\netcoreapp2.1\ADOModel.deps.json
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\bin\Debug\netcoreapp2.1\ADOModel.dll
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\bin\Debug\netcoreapp2.1\ADOModel.pdb
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\obj\Debug\netcoreapp2.1\ADOModel.csprojAssemblyReference.cache
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\obj\Debug\netcoreapp2.1\ADOModel.csproj.CoreCompileInputs.cache
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\obj\Debug\netcoreapp2.1\ADOModel.AssemblyInfoInputs.cache
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\obj\Debug\netcoreapp2.1\ADOModel.AssemblyInfo.cs
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\obj\Debug\netcoreapp2.1\ADOModel.dll
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOModel\obj\Debug\netcoreapp2.1\ADOModel.pdb

@@ -4616,9 +4616,22 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "ADOModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ADOModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ADOModel.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "ADOModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DAL.dll": {}
         },
@@ -12219,6 +12232,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "ADOModel/1.0.0": {
+      "type": "project",
+      "path": "../ADOModel/ADOModel.csproj",
+      "msbuildProject": "../ADOModel/ADOModel.csproj"
+    },
     "DAL/1.0.0": {
       "type": "project",
       "path": "../DAL/DAL.csproj",
@@ -12227,6 +12245,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "ADOModel >= 1.0.0",
       "DAL >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -12263,6 +12282,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\archana.kumari\\Documents\\Visual Studio 2017\\Projects\\ADOApplication\\ADOModel\\ADOModel.csproj": {
+              "projectPath": "C:\\Users\\archana.kumari\\Documents\\Visual Studio 2017\\Projects\\ADOApplication\\ADOModel\\ADOModel.csproj"
+            },
             "C:\\Users\\archana.kumari\\Documents\\Visual Studio 2017\\Projects\\ADOApplication\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\archana.kumari\\Documents\\Visual Studio 2017\\Projects\\ADOApplication\\DAL\\DAL.csproj"
             }

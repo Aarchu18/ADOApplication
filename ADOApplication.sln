@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOApplication", "ADOApplication\ADOApplication.csproj", "{0FD71C91-E34F-4F80-A09C-CB4EB683C5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOApplication", "ADOApplication\ADOApplication.csproj", "{0FD71C91-E34F-4F80-A09C-CB4EB683C5D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{837E363F-723D-48E4-87C7-D1BD1916AFFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{837E363F-723D-48E4-87C7-D1BD1916AFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOModel", "ADOModel\ADOModel.csproj", "{B39280C7-9400-4B93-B233-13D0BC2F864B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{837E363F-723D-48E4-87C7-D1BD1916AFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{837E363F-723D-48E4-87C7-D1BD1916AFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{837E363F-723D-48E4-87C7-D1BD1916AFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39280C7-9400-4B93-B233-13D0BC2F864B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39280C7-9400-4B93-B233-13D0BC2F864B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39280C7-9400-4B93-B233-13D0BC2F864B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39280C7-9400-4B93-B233-13D0BC2F864B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
