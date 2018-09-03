@@ -31,8 +31,6 @@ C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADO
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\ADOApplication.pdb
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\ADOApplication.csproj.CopyComplete
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\AddProduct.g.cshtml.cs
-C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\UpdateProduct.g.cshtml.cs
-C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.g.cshtml.cs
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.g.cshtml.cs
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\DetailProduct.g.cshtml.cs
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\bin\Debug\netcoreapp2.1\ADOModel.dll
@@ -40,3 +38,4 @@ C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADO
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\bin\Debug\netcoreapp2.1\ADOModel.pdb
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\bin\Debug\netcoreapp2.1\DAL.pdb
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\ADOApplication\ADOApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\SearchProduct.g.cshtml.cs

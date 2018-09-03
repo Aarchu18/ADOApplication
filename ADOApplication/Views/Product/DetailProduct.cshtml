@@ -4,14 +4,19 @@
     ViewData["Title"] = "DetailProduct";
 }
 
-<h2>Details</h2>
-
 <div>
-    <h4>Product</h4>
+    <h2> Product Details</h2>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.ProductId)
+            Product Id
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+        <dt>
+        <dt>
+            Product Name
         </dt>
 
         <dd>
@@ -19,7 +24,13 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ProductPrice)
+            Product Price
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProductPrice)
+        </dd>
+        <dt>
+            Product CategoryId
         </dt>
 
         <dd>
@@ -27,15 +38,19 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.DateCreated)
+            Date Created
         </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+
 
 
 
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductId }) |
+    @Html.ActionLink("EditProduct", "EditProduct", new { id = Model.ProductId }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
 

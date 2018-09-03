@@ -1,32 +1,35 @@
 ﻿@model IEnumerable<ADOModel.Product>
 
 @{
-    ViewData["Title"] = "AddProduct";
+    ViewData["Title"] = "Search";
 }
 
-<h4>products List</h4>
+<h4>Product List</h4>
 
 <p>
     @Html.ActionLink("Add New Product", "AddProduct")
 </p>
-<form class="form-inline" method="post" action="Product/SearchProduct">
+
+<form class="form-inline" method="post" action="SearchProduct">
 
     <input type="text" name="SearchText" class="form-control" placeholder="Product Name" />
     <span>Search Category :</span>
     <select name="ProductCategoryId" class="form-control">
-        <option value="">Select</option>
+        <option value=0>Select</option>
         <option value="1">Dairy</option>
         <option value="2">Vehicles</option>
         <option value="3">Electonics</option>
         <option value="4">Books</option>
     </select>
-    <span>Price From :</span>
+    <span>Cost Form :</span>
     <input type="number" name="MinRange" class="form-control" />
     <span> To </span>
     <input type="number" name="MaxRange" class="form-control" />
     <input type="submit" class="btn btn-success" />
+
 </form>
 <br />
+
 @if (Model != null)
 {
     <table class="table">
@@ -39,9 +42,6 @@
             </th>
             <th>
                 Product Price
-            </th>
-            <th>
-                Product CategoryId
             </th>
             <th>
                 Date Created
@@ -62,14 +62,11 @@
                     @Html.DisplayFor(modelItem => item.ProductPrice)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.ProductCategoryId)
-                </td>
-                <td>
                     @Html.DisplayFor(modelItem => item.DateCreated)
                 </td>
                 <td>
                     @Html.ActionLink("EditProduct", "EditProduct", new { id = item.ProductId }) |
-                    @Html.ActionLink("DetailProduct", "DetailProduct", new { id = item.ProductId })|
+                    @Html.ActionLink("DetailProduct", "DetailProduct", new { id = item.ProductId }) |
                     @Html.ActionLink("DeleteProduct", "DeleteProduct", new { id = item.ProductId })
                 </td>
             </tr>
@@ -78,8 +75,10 @@
     </table>
 
 }
+
 else
 {
-    <h3>No records were found</h3>
+    <h3>No records where found</h3>
 }
+
 

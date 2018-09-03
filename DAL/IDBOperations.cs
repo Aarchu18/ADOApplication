@@ -5,10 +5,11 @@ namespace DAL
 {
     public interface IDBOperations
     {
-
-       
         int AddProduct(Product product);
 
-        IEnumerable<Product> GetProduct();
+        IEnumerable<Product> GetProducts();
+        void DeleteProductId(int productId);
+        void UpdateProduct(Product product);
+        Product GetProductId(int id);
     }
 }
