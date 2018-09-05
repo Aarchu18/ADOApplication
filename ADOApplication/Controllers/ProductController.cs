@@ -12,7 +12,7 @@ namespace ADOApplication.Controllers
         private readonly IDBOperations dBOperations;
         public ProductController()
         {
-            dBOperations = new DBOperations();
+            dBOperations =  DBOperations.Instance();
         }
 
         public ActionResult Index()

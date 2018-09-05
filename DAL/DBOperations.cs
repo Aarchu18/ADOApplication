@@ -10,8 +10,31 @@ namespace DAL
         private SqlCommand sqlCommand;
         private SqlConnection sqlConnection;
         private string connentionString = @"Data Source=KELLGGNCPU0229\SQLEXPRESS;Initial Catalog=SampleExercise;Integrated Security=True";
+        private static readonly object padlock = new object();
+        private static DBOperations instance = null;
 
-        public int AddProduct(Product addProduct)
+        public static DBOperations Instance()
+        {
+            
+            
+                if (instance == null)
+                {
+                    lock (padlock)
+                    {
+                        if (instance == null)
+                        {
+                            instance = new DBOperations();
+                        }
+                    }
+                }
+                return instance;
+            
+        }
+    
+
+
+
+    public int AddProduct(Product addProduct)
         {
             using (sqlConnection = new SqlConnection(connentionString))
             {
