@@ -5,14 +5,18 @@ using System.Data.SqlClient;
 
 namespace DAL
 {
-    public class DBOperations:IDBOperations
+    public sealed class DBOperations:IDBOperations
     {
         private SqlCommand sqlCommand;
         private SqlConnection sqlConnection;
         private string connentionString = @"Data Source=KELLGGNCPU0229\SQLEXPRESS;Initial Catalog=SampleExercise;Integrated Security=True";
         private static readonly object padlock = new object();
         private static DBOperations instance = null;
+        private DBOperations()
+        {
 
+        }
+    
         public static DBOperations Instance()
         {
             
@@ -31,8 +35,6 @@ namespace DAL
             
         }
     
-
-
 
     public int AddProduct(Product addProduct)
         {
